@@ -3,7 +3,7 @@
 void main () {
 
     char tabuleiro[10][10];
-    int i, j, k, L, M;
+    int i, j, p, k, L, M;
 
     char NavioA[3] = {'3', '3', '3'}; // Representa um navio
     char NavioB[4] = {'3', '3', '3', '3'}; // Representa outro navio
@@ -17,8 +17,8 @@ void main () {
     }
 
     
-    for (j = 0; j < 3; j++) {
-        tabuleiro[1][j + 1] = NavioA[j]; // Coloca o navio A no tabuleiro
+    for (p = 0; p < 3; p++) {
+        tabuleiro[1][p + 1] = NavioA[j]; // Coloca o navio A no tabuleiro
     }
 
     for (k = 0; k < 4; k++) {
@@ -46,5 +46,6 @@ void main () {
         }
         printf("\n");
     }
+
 
 }
