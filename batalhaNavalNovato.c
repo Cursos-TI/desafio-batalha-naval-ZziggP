@@ -18,7 +18,7 @@ void main () {
 
     
     for (p = 0; p < 3; p++) {
-        tabuleiro[1][p + 1] = NavioA[j]; // Coloca o navio A no tabuleiro
+        tabuleiro[1][p + 1] = NavioA[p]; // Coloca o navio A no tabuleiro
     }
 
     for (k = 0; k < 4; k++) {
@@ -49,3 +49,4 @@ void main () {
 
 
 }
+
